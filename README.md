@@ -11,9 +11,15 @@ There are many ways to create objects in javascript as below
 
       The simplest way to create an empty object is using the Object constructor. Currently this approach is not recommended.
 
-      ```javascript
-      var object = new Object();
-      ```
+     ```javascript
+     var v1 = {};
+     var v2 = "";
+     var v3 = 0;
+     var v4 = false;
+     var v5 = [];
+     var v6 = /()/;
+     var v7 = function(){};
+     ```
 
    1.2 **Object's create method:**
 
